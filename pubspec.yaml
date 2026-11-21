@@ -1,5 +1,5 @@
-name: lab_2
-description: "A new Flutter project."
+name: BloodDonation
+description: "A blood donation app."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -22,14 +22,14 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
 
 # 2. Package ki configuration (Bilkul left line se start hogi bina kisi space ke)
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/images/app_icon.png"
+  image_path: "assets/images/app_logo.png"
   remove_alpha_ios: true
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/logo.jpg
+    - assets/images/app_logo.png

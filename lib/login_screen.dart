@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:lab_2/register_screen.dart';
+import 'package:BloodDonation/register_screen.dart';
 
 void main() {
   runApp(LoginScreen());
@@ -9,10 +9,8 @@ void main() {
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: LoginForm(),
-    );
+      return LoginForm();
+
   }
 }
 

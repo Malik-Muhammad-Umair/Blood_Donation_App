@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:lab_2/register_screen.dart';
+import 'package:BloodDonation/register_screen.dart';
 import 'login_screen.dart';
 
 
@@ -13,6 +13,7 @@ class SelectionScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Make Your Selection"),
+        backgroundColor: Colors.red.shade100,
       ),
       body: Center(
         child: Column(

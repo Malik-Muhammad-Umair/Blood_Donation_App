@@ -10,10 +10,9 @@ void main() {
 class RegisterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: RegisterForm(),
-    );
+
+      return RegisterForm();
+
   }
 }
 
@@ -34,7 +33,7 @@ class _LoginFormState extends State<RegisterForm> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Register Screen"),
-          backgroundColor: Colors.red.shade100
+        backgroundColor: Colors.red.shade200,
       ),
 
       body: Padding(
