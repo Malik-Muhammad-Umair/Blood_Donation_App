@@ -98,7 +98,7 @@ This project is developed to practice Flutter mobile application development, UI
 
 ## 👨‍💻 Developer
 
-**Malik Muhammad Umair**
+**Malik Muhammad Umair || Natan || Sibgha**
 
 GitHub: [Malik-Muhammad-Umair](https://github.com/Malik-Muhammad-Umair)
 
